@@ -4,7 +4,8 @@ import './App.css';
 
 function TarjetaCongreso({ titulo, fecha, lugar }) {
   const [inscrito, setInscrito] = useState(false);
-
+  
+ // const [inscrito, setInscrito] = useState(true); // Para probar el estado inicial de inscripción
   return (
     <article className="tarjeta">
       <p className="etiqueta">CONGRESO CIENTÍFICO</p>
