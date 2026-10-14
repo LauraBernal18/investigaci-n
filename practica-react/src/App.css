@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+  color: black;
+}
+
+.contenedor {
+  width: min(90%, 720px);
+  margin: 48px auto;
+  color: black;
+}
+
+.tarjeta {
+  margin-top: 24px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #dce2eb;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px #0000000d;
+}
+
+.etiqueta {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #3859a6;
+}
+
+button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #294f9b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d3b77;
+}
+
+.mensaje {
+  margin-top: 16px;
+}
